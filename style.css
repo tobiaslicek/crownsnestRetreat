@@ -4,10 +4,10 @@
     --clr-background1: #4f6a13;
     --clr-background2: #2d4823;
 
-    --ff-base: 'Open Sans', sans-serif;
+    --ff: 'Open Sans', sans-serif;
 
-    --fw-regular: 400;
-    --fw-bold: 700;
+    --fw-n: 400;
+    --fw-b: 700;
 }
 
 
