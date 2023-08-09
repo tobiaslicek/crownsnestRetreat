@@ -25,6 +25,7 @@ body {
   margin: 0;
   font-family: var(--ff);
   font-size: 1.125rem;
+  color: var(--clr-text1);
   background: url('assignment/graphics/bg.jpg');
   background-size: 100%;
   line-height: 1.5;
@@ -32,20 +33,44 @@ body {
 }
 
 h1 {
-    font-family: var(--ff-header);
-    font-size: 4rem;
-    letter-spacing: 0.4rem;
-    text-align: center;
+  font-family: var(--ff-header);
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
 }
 
 .main-container,
-.sign-up { 
-    margin: 0 auto;
-    width: 40em;
+.sign-up {
+  margin: 0 auto;
+  width: 40em;
 }
 
 .main-container__intro {
-    font-weight: var(--fw-n);
-    /* margin-bottom: 12rem; */
-    font-weight: var(--fw-b);
+  font-weight: var(--fw-n);
+  /* margin-bottom: 12rem; */
+  font-weight: var(--fw-b);
+}
+
+.main-container__bubble_position_left,
+.main-container__bubble_position_right,
+.main-container__bubble_position_left-bottom {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  padding: 0 2rem;
+  background-color: #4f6a13;
+}
+
+.main-container__bubble_position_left {
+  margin-top: 3rem;
+}
+
+.main-container__bubble_position_right {
+  position: relative;
+  left: 20rem;
+  margin-top: -7rem;
+}
+
+.main-container__bubble_position_left-bottom {
+  margin-top: -5rem;
+  margin-bottom: 3rem;
 }
