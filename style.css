@@ -1,13 +1,51 @@
 :root {
-    --clr-text1: #ffffff;
-    --clr-text2: #d3d3d3;
-    --clr-background1: #4f6a13;
-    --clr-background2: #2d4823;
+  --clr-text1: #ffffff;
+  --clr-text2: #d3d3d3;
+  --clr-background1: #4f6a13;
+  --clr-background2: #2d4823;
 
-    --ff: 'Open Sans', sans-serif;
+  --ff-base: 'Open Sans', sans-serif;
+  --ff-header: 'Times New Roman', Times, serif;
 
-    --fw-n: 400;
-    --fw-b: 700;
+  --fw-n: 400;
+  --fw-b: 700;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff);
+  font-size: 1.125rem;
+  background: url('assignment/graphics/bg.jpg');
+  background-size: 100%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+    font-family: var(--ff-header);
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+.main-container,
+.sign-up { 
+    margin: 0 auto;
+    width: 40em;
+}
+
+.main-container__intro {
+    font-weight: var(--fw-n);
+    /* margin-bottom: 12rem; */
+    font-weight: var(--fw-b);
+}
