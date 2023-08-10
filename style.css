@@ -46,7 +46,6 @@ h1 {
 
 .main-container__intro {
   font-weight: var(--fw-n);
-  /* margin-bottom: 12rem; */
   font-weight: var(--fw-b);
 }
 
@@ -58,6 +57,7 @@ h1 {
   border-radius: 10rem;
   padding: 0 2rem;
   background-color: #4f6a13;
+  margin: auto 0;
 }
 
 .main-container__bubble_position_left {
@@ -66,11 +66,45 @@ h1 {
 
 .main-container__bubble_position_right {
   position: relative;
-  left: 20rem;
-  margin-top: -7rem;
+  left: 22rem;
+  margin-top: -6rem;
 }
 
 .main-container__bubble_position_left-bottom {
-  margin-top: -5rem;
+  margin-top: -5.6rem;
   margin-bottom: 3rem;
+}
+
+.main-container__bubble-img {
+  margin-top: 1.15rem;
+}
+
+.main-container__bubble-heading {
+  margin: 0;
+}
+
+.sign-up {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: var(--clr-background2);
+  width: auto;
+  height: 20rem;
+}
+
+.sign-up__header {
+  text-transform: uppercase;
+}
+
+.sign-up__text {
+  margin: auto;
+  max-width: 60%;
+}
+
+.sign-up__link {
+  color: var(--clr-text2);
+  text-decoration: none;
+}
+
+.sign-up__link:hover {
+  color: rgb(46, 86, 197);
 }
